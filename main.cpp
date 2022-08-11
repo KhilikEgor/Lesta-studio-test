@@ -1,7 +1,7 @@
 #include <iostream>
-#include "task_1.h"
-#include "task_2.h"
-#include "task_3.h"
+#include "Tasks/task_1.h"
+#include "Tasks/task_2.h"
+#include "Tasks/task_3.h"
 
 int main(){
     std::cout << "-------------------TASK 1-------------------\n";

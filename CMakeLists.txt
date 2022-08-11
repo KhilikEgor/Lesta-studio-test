@@ -5,6 +5,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Lesta_studio_test
         main.cpp
-        "task_1.cpp"
-        "task_2.cpp"
-        "task_3.cpp")
+        "Tasks/task_1.cpp"
+        "Tasks/task_2.cpp"
+        "Tasks/task_3.cpp")
