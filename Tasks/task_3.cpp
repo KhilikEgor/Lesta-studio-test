@@ -29,13 +29,13 @@ void merge(std::vector<int>& a, int left, int right){
     }
 }
 
-void merge_sort(std::vector<int>& a, int left, int right){
+void mergeSort(std::vector<int>& a, int left, int right){
     if(right <= left){
         return;
     }
     int mid = left + (right - left) / 2;
-    merge_sort(a, left, mid);
-    merge_sort(a, mid + 1, right);
+    mergeSort(a, left, mid);
+    mergeSort(a, mid + 1, right);
     merge(a, left, right);
 }
 
